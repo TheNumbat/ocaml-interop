@@ -302,7 +302,7 @@ pub use crate::memory::OCamlRef;
 pub use crate::mlvalues::{
     bigarray, DynBox, OCamlBytes, OCamlFloat, OCamlInt, OCamlInt32, OCamlInt64, OCamlList, RawOCaml,
 };
-pub use crate::runtime::OCamlRuntime;
+pub use crate::runtime::{OCamlRuntime, OCamlDomainLock};
 pub use crate::value::OCaml;
 
 #[doc(hidden)]
