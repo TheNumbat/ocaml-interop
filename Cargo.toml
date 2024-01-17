@@ -13,7 +13,7 @@ exclude = [
 ]
 
 [package.metadata.docs.rs]
-features = [ "without-ocamlopt", "caml-state" ]
+features = [ "without-ocamlopt", "caml-state", "link" ]
 
 [dependencies]
 ocaml-sys = { git = "https://github.com/TheNumbat/ocaml-rs", branch = "ocaml5" }
@@ -24,3 +24,4 @@ static_assertions = "1.1.0"
 without-ocamlopt = ["ocaml-sys/without-ocamlopt"]
 caml-state = ["ocaml-sys/caml-state"]
 no-caml-startup = []
+link = ["ocaml-sys/link"]
