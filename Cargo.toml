@@ -11,6 +11,7 @@ edition = "2018"
 exclude = [
     ".github/*",
 ]
+links = "asmrun"
 
 [package.metadata.docs.rs]
 features = [ "without-ocamlopt", "caml-state", "link" ]
