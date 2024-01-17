@@ -57,7 +57,7 @@ impl OCamlRuntime {
     }
 
     #[inline(always)]
-    unsafe fn recover_handle() -> &'static Self {
+    pub unsafe fn recover_handle() -> &'static Self {
         Self::recover_handle_mut()
     }
 
