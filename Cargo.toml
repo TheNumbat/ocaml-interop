@@ -11,14 +11,14 @@ edition = "2018"
 exclude = [
     ".github/*",
 ]
-links = "asmrun"
+links = "asmrun,ocaml-boxroot"
 
 [package.metadata.docs.rs]
 features = [ "without-ocamlopt", "caml-state", "link" ]
 
 [dependencies]
 ocaml-sys = { git = "https://github.com/TheNumbat/ocaml-rs", branch = "ocaml5" }
-ocaml-boxroot-sys = { git = "https://github.com/TheNumbat/ocaml-boxroot", rev = "652d92b" }
+ocaml-boxroot-sys = { git = "https://github.com/TheNumbat/ocaml-boxroot", branch = "ocaml5" }
 static_assertions = "1.1.0"
 
 [features]
