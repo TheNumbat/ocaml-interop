@@ -119,7 +119,7 @@ pub struct OCamlDomainLock {
 
 extern "C" {
     pub fn caml_c_thread_register() -> isize;
-    pub fn caml_c_thread_unregister() -> isize;
+    // pub fn caml_c_thread_unregister() -> isize;
 }
 
 impl OCamlDomainLock {
